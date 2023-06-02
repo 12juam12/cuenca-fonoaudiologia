@@ -1,0 +1,34 @@
+{
+  "name": "inboxvip-backoffice-back",
+  "version": "1.0.0",
+  "description": "Proyecto destinado al backoffice",
+  "scripts": {
+    "start": "NODE_ENV=production node www",
+    "dev": "NODE_ENV=development nodemon www",
+    "dev-windows": "SET NODE_ENV=development & nodemon www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inboxvip/inboxvip-backoffice-back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inboxvip/inboxvip-backoffice-back/issues"
+  },
+  "homepage": "https://github.com/inboxvip/inboxvip-backoffice-back#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.1.5",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+     "mysql2": "^3.3.3",
+    "promise-mysql": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
